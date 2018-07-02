@@ -1,0 +1,109 @@
+﻿<!doctype html>
+<html>
+
+<head design-width="720">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>Demo</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<!--重置样式-->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--页面样式-->
+	<link rel="stylesheet" href="css/common.css" />
+	<!--常用样式库-->
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<!--CSS3动画库-->
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<!--MUI样式-->
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/auto-size.js"></script>
+	<!--设置字体大小-->
+</head>
+
+<body class="bgfff">
+	<div class="mobile-wrap center">
+
+
+		<div class="h-public-header h-module">
+			<a href="#" class="account">绑定账户</a>
+		</div>
+		<div class="h-module h-main-people-center">
+			<div class="order bdb20">
+				<div>
+					<div class="number">20</div>
+					<div class="text">计时订单（单）</div>
+				</div>
+				<div>
+					<div class="number">52</div>
+					<div class="text">计次订单（单）</div>
+				</div>
+				<div>
+					<div class="number">3</div>
+					<div class="text">套餐订单（单）</div>
+				</div>
+				<div>
+					<div class="number">75</div>
+					<div class="text">总订单（单）</div>
+				</div>
+			</div>
+			<div class="order bdb20">
+				<div>
+					<div class="number">10000.00</div>
+					<div class="text">可提额度（元）</div>
+				</div>
+				<div>
+					<div class="number">52</div>
+					<div class="text">收益记录</div>
+				</div>
+				<div>
+					<div class="number">10</div>
+					<div class="text">我的足迹</div>
+				</div>
+				<div>
+					<div class="number">12</div>
+					<div class="text">关注</div>
+				</div>
+			</div>
+			<div class="check-out">
+				<div class="input-container" data-symbol="$">
+					<input type="text" placeholder="请输入提现金额">
+				</div>
+				<div class="row">
+					<label>
+						<input type="radio" name="a">
+						<span style="background-image: url(img/ebbcf443b1ef71fb836816d79c5c0e1a-26+26.png);">支付宝</span>
+					</label>
+				</div>
+				<div class="row">
+					<label>
+						<input type="radio" name="a">
+						<span style="background-image: url(img/dac8892214ffba2aaeeb8a98c8ddfb1a-26+26.png);">微信</span>
+					</label>
+				</div>
+				<div class="row">
+					<input type="submit" value="提现">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--mobile_wrap-->
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<!--jQ库-->
+	<script src="js/swiper-4.2.0.min.js"></script>
+	<!--轮播库-->
+	<script src="js/version-3.2.8.js"></script>
+	<!--封装函数-->
+	<script src="js/mui.min.js"></script>
+	<!-- MUI js -->
+	<script>
+		mui.init(); //初始化 MUI
+
+		slide_nav(".problem-item-dt ul li h2", ".down-pro", 'acti')
+	</script>
+</body>
+
+</html>

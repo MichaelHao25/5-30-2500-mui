@@ -1,0 +1,66 @@
+﻿<!doctype html>
+<html>
+
+<head design-width="720">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>Demo</title>
+	<link rel="stylesheet" href="css/reset.css" />
+	<!--重置样式-->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--页面样式-->
+	<link rel="stylesheet" href="css/common.css" />
+	<!--常用样式库-->
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<!--CSS3动画库-->
+	<link rel="stylesheet" href="css/mui.min.css" />
+	<!--MUI样式-->
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/auto-size.js"></script>
+	<!--设置字体大小-->
+</head>
+
+<body class="bgfff">
+	<div class="mobile-wrap center">
+		<div class="h-main-binding-user bdtf9eff2">
+			<div class="row">
+				<div class="title">真实姓名</div>
+				<div class="content">
+					<input type="text" placeholder="雷蒙">
+				</div>
+			</div>
+			<div class="row">
+				<div class="title">身份号码</div>
+				<div class="content">
+					<input type="text" placeholder="512315454512">
+				</div>
+			</div>
+			<div class="row bdn">
+				<input type="submit" value="下一步">
+			</div>
+			<div class="tips">
+				<span>信息安全已加密，仅用于实名认证</span>
+			</div>
+		</div>
+	</div>
+	<!--mobile_wrap-->
+
+	<script src="js/jquery-2.2.4.min.js"></script>
+	<!--jQ库-->
+	<script src="js/swiper-4.2.0.min.js"></script>
+	<!--轮播库-->
+	<script src="js/version-3.2.8.js"></script>
+	<!--封装函数-->
+	<script src="js/mui.min.js"></script>
+	<!-- MUI js -->
+	<script>
+		mui.init(); //初始化 MUI
+
+		slide_nav(".problem-item-dt ul li h2", ".down-pro", 'acti')
+	</script>
+</body>
+
+</html>
